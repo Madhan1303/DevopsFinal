@@ -21,7 +21,7 @@ function OrderSummary() {
     city,
     state,
     country,
-    zip_code,
+    pin_code,
   } = ShippingState;
 
   return (
@@ -90,10 +90,10 @@ function OrderSummary() {
           </p>
           <br />
           <p>
-            {address}, {city}, {state}, {zip_code}, {country}{" "}
+            {address}, {city}, {state}, {pin_code}, {country}{" "}
           </p>
           <br />
-          <p>Payment: "Cashy On Dalivery"</p>
+          <p>Payment: "Cash On Dalivery"</p>
           <br />
         </div>
 
